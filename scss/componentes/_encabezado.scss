@@ -1,0 +1,14 @@
+@import "../base/variables";
+
+.encabezado-contenedor{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #F2F2F2;
+    
+    h1{
+        font-family: $font;
+        font-style: italic;
+        
+    
+    }
+}

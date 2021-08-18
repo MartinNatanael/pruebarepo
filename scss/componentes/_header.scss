@@ -1,0 +1,29 @@
+
+@import "../base/variables";
+@import "../base/extends";
+.header {
+    background-color: #F2F2F2;
+
+    .navegable { 
+
+        .div-header {
+
+            .links {
+                font-family: $font;
+                color: #85BD37;
+                text-decoration: none;
+                font-weight: bold;
+
+                &:hover {
+                    color: #EA5843;
+                }
+
+            }
+        }
+    }
+}
+
+.imagen {
+    width: 65px;
+    height: 65px;
+}

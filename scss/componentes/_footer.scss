@@ -1,0 +1,58 @@
+@import "../base/variables";
+@import "../base/extends";
+
+footer {
+
+    background-color: #F2F2F2;
+
+
+
+    li {
+        list-style: none;
+
+        a {
+
+            @extend %links;
+
+            font-size: small;
+            font-weight: normal;
+            margin: 1em 0;
+
+            &:hover {
+                color: #EA5843;
+            }
+        }
+    }
+
+    div {
+        a {
+            i {
+                color: #85BD37;
+                text-decoration: none;
+
+                &:hover {
+                    color: #EA5843;
+                }
+            }
+        }
+    }
+
+    div {
+        label {
+            font-family: $font;
+            font-weight: bold;
+        }
+    }
+    
+    div{
+        font-family: $font;
+        font-weight: lighter;
+        color: rgb(85, 80, 80);
+        
+    }a{
+        @extend %links;
+        &:hover {
+            color: #EA5843;
+        }
+    }
+}

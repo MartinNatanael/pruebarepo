@@ -1,0 +1,34 @@
+@import "../base/variables";
+@import "../base/extends";
+
+section {
+    background-color: #FEDA8F;
+   
+    padding-bottom: 20px;
+    padding-top: 5%;
+    
+   
+
+    div {
+        display: flex;
+        align-items: center;
+        font-family: $font;
+        font-weight: bold;
+        font-style: italic;
+        flex-direction: column;
+        .visitanos {
+            border-radius: 30px;
+            font-family: $font;
+            background-color: #F2F2F2;
+            padding: 10px;
+
+            a {
+                @extend %links;
+
+                &:hover {
+                    color: #EA5843;
+                }
+            }
+        }
+    }
+}

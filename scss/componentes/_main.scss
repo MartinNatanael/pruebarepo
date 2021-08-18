@@ -1,0 +1,32 @@
+@import "../base/variables";
+@import "../base/extends";
+main { 
+    
+        
+        h1 {
+            font-family: $font;
+            font-weight: bolder;
+            font-style: italic;
+            color: #FEDA8F;
+            
+        }
+
+        h2 {
+            font-family: $font;
+            font-weight: bold;
+            color: black;
+            
+        }
+        
+    
+
+    div {
+
+        video {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+    }
+}
