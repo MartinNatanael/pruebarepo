@@ -1,4 +1,4 @@
-.section-tienda .contenedor .tarjeta .tarjeta-datos .pago, section div .visitanos a, footer a, footer li a {
+.contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .pago, section div .visitanos a, footer a, footer li a {
   font-family: "Roboto", sans-serif;
   color: #85BD37;
   text-decoration: none;
@@ -23,7 +23,7 @@
   height: 65px;
 }
 
-.section-tienda .contenedor .tarjeta .tarjeta-datos .pago, section div .visitanos a, footer a, footer li a {
+.contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .pago, section div .visitanos a, footer a, footer li a {
   font-family: "Roboto", sans-serif;
   color: #85BD37;
   text-decoration: none;
@@ -64,7 +64,7 @@ footer a:hover {
   color: #EA5843;
 }
 
-.section-tienda .contenedor .tarjeta .tarjeta-datos .pago, section div .visitanos a, footer li a, footer a {
+.contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .pago, section div .visitanos a, footer li a, footer a {
   font-family: "Roboto", sans-serif;
   color: #85BD37;
   text-decoration: none;
@@ -89,7 +89,7 @@ main div video {
   z-index: -1;
 }
 
-.section-tienda .contenedor .tarjeta .tarjeta-datos .pago, section div .visitanos a, footer li a, footer a {
+.contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .pago, section div .visitanos a, footer li a, footer a {
   font-family: "Roboto", sans-serif;
   color: #85BD37;
   text-decoration: none;
@@ -116,7 +116,7 @@ main div video {
   background-color: #ffe4a9d7;
 }
 
-.section-tienda .contenedor .tarjeta .tarjeta-datos .pago, section div .visitanos a, footer li a, footer a {
+.contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .pago, section div .visitanos a, footer li a, footer a {
   font-family: "Roboto", sans-serif;
   color: #85BD37;
   text-decoration: none;
@@ -146,21 +146,30 @@ section div .visitanos a:hover {
   color: #EA5843;
 }
 
-.section-tienda .contenedor .tarjeta .tarjeta-datos .pago, footer li a, footer a, section div .visitanos a {
+.contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .pago, footer li a, footer a, section div .visitanos a {
   font-family: "Roboto", sans-serif;
   color: #85BD37;
   text-decoration: none;
   font-weight: bold;
 }
 
-.section-tienda {
+.contenedor-tienda {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 470px) {
+  .contenedor-tienda {
+    justify-content: center;
+  }
+}
+.contenedor-tienda .section-tienda {
   box-sizing: border-box;
-  margin: 0;
-  padding-bottom: 10%;
+  padding: 0px;
   font-family: "Roboto", sans-serif;
   text-decoration: none;
 }
-.section-tienda .contenedor {
+.contenedor-tienda .section-tienda .contenedor {
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -168,38 +177,38 @@ section div .visitanos a:hover {
   background-color: #F2F2F2;
   border-radius: 1rem;
 }
-.section-tienda .contenedor .tarjeta {
+.contenedor-tienda .section-tienda .contenedor .tarjeta {
   width: 320px;
   height: 380px;
   background-color: #85bd3771;
   border-radius: 1rem;
   padding: 4rem 2rem 0;
 }
-.section-tienda .contenedor .tarjeta .img-tarjeta {
+.contenedor-tienda .section-tienda .contenedor .tarjeta .img-tarjeta {
   position: absolute;
   width: 260px;
   filter: drop-shadow(5px 10px 15px rgba(8, 9, 13, 0.2));
   transform: translate(0.2rem, -8.5rem);
 }
-.section-tienda .contenedor .tarjeta .tarjeta-datos {
+.contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos {
   transform: translateY(4.8rem);
 }
-.section-tienda .contenedor .tarjeta .tarjeta-datos .tarjeta-titulo {
+.contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .tarjeta-titulo {
   font-size: 1.5rem;
   color: black;
   margin-bottom: 5rem;
 }
-.section-tienda .contenedor .tarjeta .tarjeta-datos .precio {
+.contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .precio {
   display: inline-block;
   font-size: 1.25rem;
   font-weight: 500;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.section-tienda .contenedor .tarjeta .tarjeta-datos .descripcion {
+.contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .descripcion {
   font-size: 1rem;
 }
-.section-tienda .contenedor .tarjeta .tarjeta-datos .pago {
+.contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .pago {
   display: block;
   width: max-content;
   padding: 1.125rem 2rem;
@@ -207,7 +216,7 @@ section div .visitanos a:hover {
   border-radius: 0.5rem;
   font-weight: 600;
 }
-.section-tienda .contenedor .tarjeta .tarjeta-datos .pago:hover {
+.contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .pago:hover {
   color: #F2F2F2;
 }
 
@@ -221,7 +230,7 @@ section div .visitanos a:hover {
   font-style: italic;
 }
 
-footer li a, footer a, section div .visitanos a, .section-tienda .contenedor .tarjeta .tarjeta-datos .pago {
+footer li a, footer a, section div .visitanos a, .contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .pago {
   font-family: "Roboto", sans-serif;
   color: #85BD37;
   text-decoration: none;

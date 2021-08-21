@@ -2,10 +2,20 @@
 @import "../base/extends";
 
 
+
+.contenedor-tienda{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    @media only screen and (max-width:470px) { 
+        justify-content: center;
+        
+    }
 .section-tienda{
     box-sizing: border-box;
-    margin: 0;
-    padding-bottom:10%;
+    padding: 0px;
     font-family: $font;
     text-decoration: none;
 
@@ -69,5 +79,6 @@
         }
     }
 
+}
 }
 }
