@@ -230,11 +230,6 @@ section div .visitanos a:hover {
   font-style: italic;
 }
 
-section {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
 section div img {
   width: 100%;
 }
