@@ -230,6 +230,23 @@ section div .visitanos a:hover {
   font-style: italic;
 }
 
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+section div img {
+  width: 100%;
+}
+section div p {
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+}
+section div p:hover {
+  transform: scale(1.1);
+  transition: all ease-out 1s;
+}
+
 footer li a, footer a, section div .visitanos a, .contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .pago {
   font-family: "Roboto", sans-serif;
   color: #85BD37;
