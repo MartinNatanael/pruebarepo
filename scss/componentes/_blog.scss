@@ -1,1 +1,19 @@
 @import "../base/variables";
+@import "../base/extends";
+
+
+.encabezado-h1 h1{
+    font-family:$font ;
+    text-align: center;
+    font-weight:bold ;
+    justify-content: center;
+    padding: 10px;
+    font-style: italic;
+}
+
+.section-acordion{
+    display: flex;
+    justify-content: start;
+    padding: 2%;
+    
+}

@@ -1,24 +1,32 @@
 @import "../base/variables";
 @import "../base/extends";
-main { 
-    
-        
-        h1 {
-            font-family: $font;
-            font-weight: bolder;
-            font-style: italic;
-            color: #FEDA8F;
-            
-        }
 
-        h2 {
-            font-family: $font;
-            font-weight: bold;
-            color: black;
-            
+main {
+
+
+    h1 {
+        font-family: $font;
+        font-weight: bolder;
+        font-style: italic;
+        // color: ;
+
+        -webkit-text-fill-color:#FEDA8F;
+        -webkit-text-stroke: 2px #0f0f0f;
+
+        @media only screen and (max-width:470px) {
+            font-size: 25px;
+
         }
-        
-    
+    }
+
+    h2 {
+        font-family: $font;
+        font-weight: bold;
+        color: black;
+
+    }
+
+
 
     div {
 
