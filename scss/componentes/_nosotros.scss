@@ -13,9 +13,14 @@ section {
 
     div {
 
-        p {
+        p { 
+            
             font-family: $font;
-            text-align: left;
+            text-align: center;
+            @media only screen and (max-width:470px) { 
+                padding: 0 20px;
+              
+            }
             
            
 

@@ -153,12 +153,18 @@ section div .visitanos a:hover {
   font-weight: bold;
 }
 
+.encabezado-contenedor {
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+}
+
 .contenedor-tienda {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-@media only screen and (min-width: 470px) {
+@media only screen and (max-width: 470px) {
   .contenedor-tienda {
     justify-content: center;
   }
@@ -235,7 +241,12 @@ section div img {
 }
 section div p {
   font-family: "Roboto", sans-serif;
-  text-align: left;
+  text-align: center;
+}
+@media only screen and (max-width: 470px) {
+  section div p {
+    padding: 0 20px;
+  }
 }
 section div p:hover {
   transform: scale(1.1);
