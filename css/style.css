@@ -1,4 +1,4 @@
-.contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .pago, section div .visitanos a, footer a, footer li a {
+.section-acordion div h2 button, .contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .pago, section div .visitanos a, footer a, footer li a {
   font-family: "Roboto", sans-serif;
   color: #85BD37;
   text-decoration: none;
@@ -23,7 +23,7 @@
   height: 65px;
 }
 
-.contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .pago, section div .visitanos a, footer a, footer li a {
+.section-acordion div h2 button, .contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .pago, section div .visitanos a, footer a, footer li a {
   font-family: "Roboto", sans-serif;
   color: #85BD37;
   text-decoration: none;
@@ -64,7 +64,7 @@ footer a:hover {
   color: #EA5843;
 }
 
-.contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .pago, section div .visitanos a, footer li a, footer a {
+.section-acordion div h2 button, .contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .pago, section div .visitanos a, footer li a, footer a {
   font-family: "Roboto", sans-serif;
   color: #85BD37;
   text-decoration: none;
@@ -95,7 +95,7 @@ main div video {
   z-index: -1;
 }
 
-.contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .pago, section div .visitanos a, footer li a, footer a {
+.section-acordion div h2 button, .contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .pago, section div .visitanos a, footer li a, footer a {
   font-family: "Roboto", sans-serif;
   color: #85BD37;
   text-decoration: none;
@@ -122,7 +122,7 @@ main div video {
   background-color: #ffe4a9d7;
 }
 
-.contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .pago, section div .visitanos a, footer li a, footer a {
+.section-acordion div h2 button, .contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .pago, section div .visitanos a, footer li a, footer a {
   font-family: "Roboto", sans-serif;
   color: #85BD37;
   text-decoration: none;
@@ -152,7 +152,7 @@ section div .visitanos a:hover {
   color: #EA5843;
 }
 
-.contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .pago, footer li a, footer a, section div .visitanos a {
+.section-acordion div h2 button, .contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .pago, footer li a, footer a, section div .visitanos a {
   font-family: "Roboto", sans-serif;
   color: #85BD37;
   text-decoration: none;
@@ -242,26 +242,41 @@ section div .visitanos a:hover {
   font-style: italic;
 }
 
-footer li a, footer a, section div .visitanos a, .contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .pago {
+.section-acordion div h2 button, footer li a, footer a, section div .visitanos a, .contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .pago {
   font-family: "Roboto", sans-serif;
   color: #85BD37;
   text-decoration: none;
   font-weight: bold;
 }
 
-.encabezado-h1 h1 {
+.encabezado-h1 {
   font-family: "Roboto", sans-serif;
   text-align: center;
   font-weight: bold;
   justify-content: center;
-  padding: 10px;
+  padding: 5% 10px 5px 10px;
   font-style: italic;
 }
 
 .section-acordion {
   display: flex;
-  justify-content: start;
-  padding: 2%;
+  justify-content: center;
+}
+.section-acordion div {
+  padding: 0 5%;
+}
+.section-acordion div h2 button {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #85BD37;
+  background-color: #F2F2F2;
+}
+.section-acordion div h2 button:hover {
+  color: #EA5843;
+}
+.section-acordion div {
+  background-color: #F2F2F2;
+  margin: 10px;
 }
 
 section div img {
@@ -281,7 +296,7 @@ section div p:hover {
   transition: all ease-out 1s;
 }
 
-footer li a, footer a, section div .visitanos a, .contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .pago {
+footer li a, footer a, section div .visitanos a, .contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .pago, .section-acordion div h2 button {
   font-family: "Roboto", sans-serif;
   color: #85BD37;
   text-decoration: none;
