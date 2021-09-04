@@ -1,8 +1,24 @@
 @import "../base/variables";
 
-section {
+.section-nosotros{ display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2%;
+    @media only screen and (max-width:425px){
+       flex-direction: column;
+       img{
+        width: 80%;
+    }
+       
+    }
+    @media only screen and (min-width:321px) and (max-width:991px) {
+        flex-direction: column;
+        img{
+            width: 80%;
+        }
+    }
 
-    div {
+    .imagen-nosotros {
         img {
             width: 100%;
 
@@ -14,14 +30,11 @@ section {
     div {
 
         p { 
-            
+
+            margin: 0 5%;
             font-family: $font;
             text-align: center;
-            @media only screen and (max-width:470px) { 
-                padding: 0 20px;
-              
-            }
-            
+           
            
 
             &:hover {
@@ -32,6 +45,6 @@ section {
 
         }
     }
-
+    
 
 }

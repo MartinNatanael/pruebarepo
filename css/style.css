@@ -279,19 +279,37 @@ section div .visitanos a:hover {
   margin: 10px;
 }
 
-section div img {
+.section-nosotros {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2%;
+}
+@media only screen and (max-width: 425px) {
+  .section-nosotros {
+    flex-direction: column;
+  }
+  .section-nosotros img {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 991px) {
+  .section-nosotros {
+    flex-direction: column;
+  }
+  .section-nosotros img {
+    width: 80%;
+  }
+}
+.section-nosotros .imagen-nosotros img {
   width: 100%;
 }
-section div p {
+.section-nosotros div p {
+  margin: 0 5%;
   font-family: "Roboto", sans-serif;
   text-align: center;
 }
-@media only screen and (max-width: 470px) {
-  section div p {
-    padding: 0 20px;
-  }
-}
-section div p:hover {
+.section-nosotros div p:hover {
   transform: scale(1.1);
   transition: all ease-out 1s;
 }
