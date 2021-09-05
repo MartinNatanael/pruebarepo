@@ -109,17 +109,21 @@ main div video {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+.section-juguetes .tarjetas:hover {
+  transition: all 1s;
+  transform: scale(1.1);
+}
 .section-juguetes .tarjetas div {
   font-family: "Roboto", sans-serif;
   text-align: center;
 }
+.section-juguetes .tarjetas div:hover {
+  background-color: #ffe4a9d7;
+}
 .section-juguetes .tarjetas div img {
   border-bottom: 5px;
-}
-.section-juguetes .tarjetas div:hover {
-  transition: all 1s;
-  transform: scale(1.1);
-  background-color: #ffe4a9d7;
+  width: auto;
+  height: auto;
 }
 
 .section-acordion div h2 button, .contenedor-tienda .section-tienda .contenedor .tarjeta .tarjeta-datos .pago, section div .visitanos a, footer li a, footer a {

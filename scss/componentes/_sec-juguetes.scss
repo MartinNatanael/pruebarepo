@@ -1,70 +1,35 @@
 @import "../base/variables";
 @import "../base/extends";
 
-.section-juguetes{
+.section-juguetes {
     background-color: #FEDA8F;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    .tarjetas{
-        div{
+
+    .tarjetas {
+        &:hover {
+            transition: all 1s;
+            transform: scale(1.1);
+           
+
+        }
+        div {
             font-family: $font;
             text-align: center;
-            img{border-bottom: 5px;}
-            
             &:hover{
-                transition: all 1s;
-                transform: scale(1.1);
-                background-color:#ffe4a9d7;
-                
+                background-color: #ffe4a9d7;
             }
+
+            img {
+                border-bottom: 5px;
+                width: auto;
+                height: auto;
+            }
+
+            
         }
 
+    }
 }
-}
-
-
-
-
-
-// section {
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     padding: 5%;
-//     background-color: #FEDA8F;
-  
-
-//     .display-f {
-//         display: flex;
-//         flex-direction: row;
-//         justify-content: center;
-//         width: 100wv;
-     
-       
-        
-
-//         .img-juguetes {
-            
-//             width: auto;
-//             height: auto;
-//             border-radius: 20px;
-//             padding: 3%;
-//             flex-grow: 2;
-
-//         }
-//         .div-cards{
-//             background-color: #85BD37;
-//            padding: 2%;
-//            margin: 2%;
-//            border-radius: 10px;
-//             width: 100%;
-//             font-family: $font;
-//             flex-grow: 20;
-            
-            
-//         }
-
-//     }
-// }
